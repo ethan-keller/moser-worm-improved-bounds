@@ -1,6 +1,8 @@
 # Improved bounds for universal convex covers of unit arcs
 
-Code, Lean 4 proofs, and compressed certificates for the "Improved bounds for universal convex covers of unit arcs" paper. The improved bounds are `0.239 ≤ α ≤ 0.2463322372…`, where `α` is the
+Code, Lean 4 proofs, and compressed certificates for the paper
+["Improved bounds for universal convex covers of unit arcs"](https://arxiv.org/abs/2609.21968)
+(arXiv:2609.21968). The improved bounds are `0.239 ≤ α ≤ 0.2463322372…`, where `α` is the
 infimum area of a convex universal cover of unit planar arcs.
 
 Numerical checks use `decide +kernel`, with no `native_decide`.
@@ -75,3 +77,21 @@ Measured on Linux with an AMD EPYC 9R14, 64 logical CPUs, and 128 GiB RAM.
 | Combined theorem and audit | — | 27sec |
 
 Total: **4h 55min** to verify, or **6h 21min** including generation.
+
+## Citation
+
+Paper: [arXiv:2609.21968](https://arxiv.org/abs/2609.21968),
+[doi:10.48550/arXiv.2609.21968](https://doi.org/10.48550/arXiv.2609.21968).
+
+```bibtex
+@misc{keller2026arcs,
+  title         = {Improved bounds for universal convex covers of unit arcs},
+  author        = {Keller, Ethan},
+  year          = {2026},
+  eprint        = {2609.21968},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.MG},
+  doi           = {10.48550/arXiv.2609.21968},
+  url           = {https://arxiv.org/abs/2609.21968}
+}
+```
